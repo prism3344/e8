@@ -13,18 +13,10 @@
         a { font-size: 20px; text-decoration: none; color: #007bff; }
 
         body {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start; 
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding-top: 50px; 
-            background-color: #222;
             background-image: url(tlo.png);
             background-size: cover;
-            text-align: center;
-            color: white;
+            background-attachment: fixed; /* To rozwiązuje problem skalowania przy długiej treści */
+            background-position: center;
         }
 
         .content-wrapper {
@@ -107,4 +99,5 @@
 </body>
 
 </html>
+
 
